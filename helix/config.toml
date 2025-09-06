@@ -1,0 +1,29 @@
+theme = "viper"
+
+[editor]
+true-color=true
+line-number="relative"
+rulers = [80]
+color-modes = true
+gutters = ["spacer"]
+
+[editor.cursor-shape]
+insert="bar"
+normal="block"
+select="underline"
+
+[editor.statusline]
+left = ["mode", "spinner" ]
+center= ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "|"
+
+
+[keys.insert]
+q = {q = "normal_mode"}
+C-space = "completion"
+
+[keys.normal]
+ret = ["open_below", "normal_mode"]
+tab = ":bn"
+S-tab = ":bp"
