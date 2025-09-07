@@ -63,7 +63,7 @@
 bg = "#201626"
 text = "#a1bd48"
 builtin = "#ffffff"
-selection = "#0000ff"
+selection = "#ba3a46"
 comments = "#00b441"
 punctuation = "#8cde94"
 keywords = "#ffffff"
@@ -89,3 +89,4 @@ blue = "#66d9ef"
 green = "#a6e22e"
 cyan = "#a1efe4"
 violet = "#a381ff"
+
